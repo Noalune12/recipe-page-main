@@ -9,7 +9,23 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction : column;
+    align-items: center;
 }
+.container {background-color: white;
+width: 600px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+margin-bottom: 40px;
+border-radius: 15px;
+padding: 40px;
+color:  hsl(30, 10%, 34%);}
+
+img {max-width: 100%;
+border-radius: 10px;}
 
 .container h1, h2 {
     font-family: 'Young Serif';
@@ -17,4 +33,75 @@ body {
 
 .container p, ul, ol, h3, table  {
     font-family: 'Outfit';
+    font-size: 15px;
 }
+
+.first {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 3px 20px 3px;
+}
+
+.preparation h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 18px;
+}
+
+.preparation li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation ul {
+        line-height: 32px;
+        margin-top: -10px;
+
+}
+
+.nutmeg {
+color : hsl(14, 45%, 36%);
+}
+
+.ingredients li::marker{
+    color : hsl(14, 45%, 36%);
+    }
+
+.ingredients ul {
+        line-height: 32px; 
+        margin-bottom: 25px;
+    }
+
+.instructions li::marker {
+   font-weight: bold ;
+   color : hsl(14, 45%, 36%);
+}
+
+.instructions ol {
+    line-height: 28px; 
+    margin-bottom: 25px;
+}
+
+
+hr {
+    border-top: 1.2px solid hsl(30, 18%, 87%);
+    margin-bottom: 35px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+tr {
+  border-bottom: 1.2px solid hsl(30, 18%, 87%);
+}
+
+td {padding: 10px 30px;}
